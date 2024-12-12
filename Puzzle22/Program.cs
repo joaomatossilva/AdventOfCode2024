@@ -5,8 +5,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 
-//872027 227 18 9760 0 4 67716 9245696
-string input = @"872027 227 18 9760 0 4 67716 9245696";
+string input = @"125 17";
 
 var numbers = GetNumbers().Matches(input);
 int stoneIndex = numbers.Count - 1;
